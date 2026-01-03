@@ -4,38 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agritech</title>
-    <link rel="stylesheet" href="./../dist/output.css">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body class="*:p">
-    <header>
-        <div class="bg-yellow-100 flex justify-between font-bold px-4">
-            <div class="contact flex gap-4 items-center">
-                <a href="#"><span><i class="bi bi-envelope text-xl"></i> support@agritech.com</span></a>
-                <a href="#"><span><i class="bi bi-telephone text-xl"></i> (00227) 99 90 97 </span></a>
+<body>
+    <header class="bg-amber-600 p-4 flex items-center">
+        <div class="flex gap-2 items-center w-full justify-center peer-checked:justify-start">
+            <div class="w-10 h-10 rounded-3xl overflow-hidden flex justify-center items-center">
+                <img class="scale-155" src="../images/agri-logo.png" alt="agri-logo">
             </div>
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 rounded-[50%] overflow-hidden flex items-center ">
-                    <a href="#"><img class="w-full h-full scale-133 object-cover" src="./../images/agri-logo.png" alt="agri-logo"></a>
-                </div>
-                <a href="#"><h1 class="font-bold size-20 w-auto flex items-center">Agritech App</h1></a>
-            </div>
-            <div class="flex items-center gap-2">
-                <img class="w-15 h-10" src="./../images/Niger.png" alt="Niger">
-                <p class="flex self-start mt-4">NE</p>
-                <div class="h-10 w-px bg-gray-500 text-xl"></div>
-                <a href="#"><i class="bi bi-twitter-x text-xl"></i></a>
-                <a href="#"><i class="bi bi-facebook text-xl"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-xl"></i></a>
-                <a href="#"><i class="bi bi-instagram text-xl"></i></a>
-                <a href="#"><i class="bi bi-tiktok text-xl"></i></a>
-            </div>
+            <h1 class="font-bold">Agritech App</h1>
         </div>
-        <nav>
-            
-        </nav>
+        <label for="hamburger" class="flex flex-col gap-0.5 cursor-pointer">
+            <input type="checkbox" id="hamburger" class="peer hidden">
+            <span class="block h-1 w-6 bg-gray-600 peer-checked:rotate-45 peer-checked:translate-y-1.5"></span>
+            <span class="block h-1 w-6 bg-gray-600 peer-checked:opacity-0"></span>
+            <span class="block h-1 w-6 bg-gray-600 peer-checked:-rotate-45 peer-checked:-translate-y-1.5"></span>
+            <div class="hidden ">
+                <button class="bg-green-900 text-white font-bold px-5 py-2 rounded-xl flex justify-center items-center gap-2" >
+                    Connect
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                        <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                    </svg>
+                </button>
+            </div>
+        </label>
     </header>
+  
 </body>
 </html>
